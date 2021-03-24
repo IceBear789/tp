@@ -94,12 +94,21 @@ public class AddressBook implements ReadOnlyAddressBook {
     }
 
     /**
-     * Sorts the list by name.
+     * Sorts the list by name in alphabetical order.
      * @param isAscending The list will be sorted by ascending order if true and descending
      * order otherwise.
      */
     public void sortByName(boolean isAscending) {
         persons.sortByName(isAscending);
+    }
+
+    /**
+     * Sorts the list by phone number in numerical order.
+     * @param isAscending The list will be sorted by ascending order if true and descending
+     * order otherwise.
+     */
+    public void sortByPhone(boolean isAscending) {
+        persons.sortByPhone(isAscending);
     }
 
     //// util methods

@@ -198,16 +198,17 @@ Example:
 
 `remark 3 r/Currently on Stay Home Notice`
 
-### Sort entries by name : `sort`
+### Sort the contact list: `sort`
 
-Sort the entries in the contacts list according to a specific criteria.
+Sort the entries in the contact list according to a specific criteria.
 The entries can be sorted in both ascending and descending order.
 
 Format: `sort c/CRITERIA d/ASCENDING_OR_DESCENDING`
 
 CRITERIA | Description | Example
 --------|------------------|------
-**name** | Sort by name in alphabetical order| sort c/name d/descending
+**name** | Sort by name in alphabetical order| sort c/name d/descending 
+**phone** | Sort by phone number | sort c/phone d/ascending
 
 ### Exiting the program : `exit`
 

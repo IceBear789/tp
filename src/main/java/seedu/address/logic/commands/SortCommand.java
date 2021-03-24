@@ -52,6 +52,8 @@ public class SortCommand extends Command {
         requireNonNull(model);
         if (criteria.equals(Criteria.NAME)) {
             model.sortByName(isAscending);
+        } else if (criteria.equals(Criteria.PHONENUMBER)) {
+            model.sortByPhone(isAscending);
         }
         return new CommandResult(MESSAGE_SUCCESS);
     }
@@ -62,8 +64,10 @@ public class SortCommand extends Command {
         }
         if (criteria.equals("name")) {
             return Criteria.NAME;
-        } else {
+        } else if (criteria.equals("phone")) {
             return Criteria.PHONENUMBER;
+        } else {
+            return null;
         }
     }
 }
