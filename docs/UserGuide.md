@@ -36,10 +36,6 @@ If you can type fast, SpamEZ can get your contact management tasks done faster t
    * **`clear`** : Deletes all contacts.
    
    * **`blist`** `2` : Blacklists the 2nd contact shown in the current list.
-   
-   * **`name`** `3 [n/John]` : Adds an optional nickname to the 3rd contact.
-   
-   * **`filter`** `[Computing, Student]` : Filters shown contact based on given keywords.
 
    * **`exit`** : Exits the app.
 1. Refer to the [Features](#features) below for details of each command.
